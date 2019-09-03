@@ -2,22 +2,32 @@
 
 We'd welcome community involvement in improving both the checklist and the documentation around it.
 
-This set of contribution guidelines is kept intentionally light; should extra documentation be needed, we'll add to it as we go along.
+This set of contribution guidelines is kept intentionally light. Should extra documentation be needed we'll add it as required.
 
-* If you'd like to start a discussion, please raise an issue on GitHub
+* If you'd like to just start a discussion, please raise an issue on GitHub
 * Suggested contributions are welcomed through pull requests:
     * Open up a PR that contains the change you'd suggest making
     * If it's a change beyond a brief spelling or grammar correction, please briefly describe your rationale so the community can comment and discuss more effectively
-    * Please attempt to keep any content short and to the point
-    * Please stick to the established format
-* The content of the article itself is in `checklist.html`
-* In future, this might be migrated to a more documentation-friendly format. For now, please bear with us.
+    * Attempt to keep any content short and to the point
+    * Please stick to the established format as far as possible
+    * Bear in mind the 'overall goals' documented below
+* The content of list itself is in `checklist.html`
+* `checklist.html` will be merged into the Candidate Code site and published on a regular basis should changes occur
+* In future, the html might be migrated to a more documentation-friendly format. For now, please bear with us.
 
-Note we're explicitly considering discussions about whether coding challenges are appropriate to use for any given situation out of scope for this checklist. That's for another article/checklist/document somewhere.
+Note: Coding challenges are not appropriate tools to use in all circumstances. We're explicitly considering those discussions out of scope for this checklist. That will be for another article/checklist/document in the future.
 
- ## Versioning
+## Overall Goals
 
-We're attempting to manage this through a variation of semver. Major/minor/patch correspond (roughly) to the following levels of change:
+* We want to vastly improve the experience of engineers taking these tests
+* We want to maximize the utility of coding challenges for engineers working in recruitment roles
+* We're aiming for a concise list of pass/fail criteria
+    * It should be easy to decide whether your coding challenge meets any individual criterion or not
+    * Avoid conditional guidelines if at all possible - they're harder to reason about
+
+## Versioning
+
+We're attempting to manage this through a loosely applied variation of [Semantic Versioning](https://semver.org/). Major/minor/patch versions correspond (roughly) to the following levels of change:
 
 * Major - removed, changed or added top level items on the checklist
 * Minor - "non-breaking" enhancements to what's there; would the changes under consideration ever cause a 'passing' coding challenge to fail, or visa-versa? If so, it's probably a major change instead
